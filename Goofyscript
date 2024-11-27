@@ -1,0 +1,601 @@
+-- go to the way bottom and delete them if you get the link
+
+--change name here and there's ult name
+-- made by Uzi
+local MovesetName1 = "Force"
+local MovesetName2 = "Storm"
+local MovesetName3 = "Invisible Rock"
+local MovesetName4 = "Superman"
+
+local UltBarName = "AURA"
+
+-- don't change anything
+local player = game.Players.LocalPlayer
+local playerGui = player.PlayerGui
+local hotbar = playerGui:FindFirstChild("Hotbar")
+local backpack = hotbar:FindFirstChild("Backpack")
+local hotbarFrame = backpack:FindFirstChild("Hotbar")
+local baseButton = hotbarFrame:FindFirstChild("1").Base
+local ToolName = baseButton.ToolName
+
+ToolName.Text = MovesetName1
+
+local player = game.Players.LocalPlayer
+local playerGui = player.PlayerGui
+local hotbar = playerGui:FindFirstChild("Hotbar")
+local backpack = hotbar:FindFirstChild("Backpack")
+local hotbarFrame = backpack:FindFirstChild("Hotbar")
+local baseButton = hotbarFrame:FindFirstChild("2").Base
+local ToolName = baseButton.ToolName
+
+ToolName.Text = MovesetName2
+
+local player = game.Players.LocalPlayer
+local playerGui = player.PlayerGui
+local hotbar = playerGui:FindFirstChild("Hotbar")
+local backpack = hotbar:FindFirstChild("Backpack")
+local hotbarFrame = backpack:FindFirstChild("Hotbar")
+local baseButton = hotbarFrame:FindFirstChild("3").Base
+local ToolName = baseButton.ToolName
+
+ToolName.Text = MovesetName3
+
+local player = game.Players.LocalPlayer
+local playerGui = player.PlayerGui
+local hotbar = playerGui:FindFirstChild("Hotbar")
+local backpack = hotbar:FindFirstChild("Backpack")
+local hotbarFrame = backpack:FindFirstChild("Hotbar")
+local baseButton = hotbarFrame:FindFirstChild("4").Base
+local ToolName = baseButton.ToolName
+
+ToolName.Text = MovesetName4
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
+local function findGuiAndSetText()
+    local screenGui = playerGui:FindFirstChild("ScreenGui")
+    if screenGui then
+        local magicHealthFrame = screenGui:FindFirstChild("MagicHealth")
+        if magicHealthFrame then
+            local textLabel = magicHealthFrame:FindFirstChild("TextLabel")
+            if textLabel then
+                textLabel.Text = UltBarName
+            end
+        end
+    end
+end
+
+playerGui.DescendantAdded:Connect(function(descendant)
+    if descendant:IsDescendantOf(playerGui:FindFirstChild("ScreenGui")) then
+        findGuiAndSetText()
+    end
+end)
+
+findGuiAndSetText()
+
+-- moves animation changer
+--move 1
+local OriginalAnimation = 16139108718
+local ReplacedAnimation = 17275150809
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- move 2
+local OriginalAnimation = 16515850153
+local ReplacedAnimation = 17861840167
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 3 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+--move 3
+local OriginalAnimation = 16431491215
+local ReplacedAnimation = 13716964686
+
+local StartTime = 1 -- which time it starts like video
+local Speed = 3 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+--move 4
+local OriginalAnimation = your_animationid
+local ReplacedAnimation = your_animationid
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- ult anim
+local OriginalAnimation = 16734584478
+local ReplacedAnimation = 18450698238
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- wall combo
+local OriginalAnimation = 16311141574
+local ReplacedAnimation = 16310343179
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+-- don't change
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- uppercut
+
+local OriginalAnimation = 10503381238
+local ReplacedAnimation = 12510170988
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1.3 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- downslam
+local OriginalAnimation = 10470104242
+local ReplacedAnimation = 17859055671
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 2 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- ult move 1
+local OriginalAnimation = your_animationid
+local ReplacedAnimation = your_animationid
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- ult move 2
+local OriginalAnimation = your_animationid
+local ReplacedAnimation = your_animationid
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- ult move 3
+local OriginalAnimation = your_animationid
+local ReplacedAnimation = your_animationid
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- ult move 4
+
+local OriginalAnimation = your_animationid
+local ReplacedAnimation = your_animationid
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+--change m1 anims here
+
+local m1 = 16515503507
+local m2 = 16515520431
+local m3 = 16515448089
+local m4 = 13295936866
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+p:Play()
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {10469493270, 13532562418, 13491635433, 13370310513, 14004222985, 15259161390, 16515503507, 17889458563}
+handleAnimationDetection(firstAnimIdsToStop, m1)
+
+-- Second set of animations
+local secondAnimIdsToStop = {10469630950, 13532600125, 13296577783, 13390230973, 13997092940, 15240216931, 16515520431, 17889461810}
+handleAnimationDetection(secondAnimIdsToStop, m2)
+
+-- Third set of animations
+local thirdAnimIdsToStop = {10469639222, 13532604085, 13295919399, 13378751717, 14001963401, 15240176873, 16515448089, 17889471098}
+handleAnimationDetection(thirdAnimIdsToStop, m3)
+
+-- Fourth set of animations
+local fourthAnimIdsToStop = {10469643643, 13294471966, 13295936866, 13378708199, 14136436157, 15162694192, 16552234590, 17889290569}
+handleAnimationDetection(fourthAnimIdsToStop, m4)
+
+-- ignore these
+
+wait()
+wait(1)
+wait(2)
+wait(3)
+wait(4)
+wait(5)
+wait(6)
+wait(7)
+wait(8)
+wait(9)
+wait(10)
+wait(11)
+wait(12)
+wait(13)
+wait(14)
+wait(15)
+wait(16)
+wait(17)
+wait(18)
+wait(19)
+wait(20)
