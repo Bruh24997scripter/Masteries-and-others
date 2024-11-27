@@ -1,1 +1,624 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _FiSiPqfLQkGp = a; end)); return(function(f,...)local s;local l;local d;local p;local a;local t;local e=24915;local n=0;local c={};while n<448 do n=n+1;while n<0x1b4 and e%0x1d00<0xe80 do n=n+1 e=(e*800)%21471 local h=n+e if(e%0x3820)<0x1c10 then e=(e*0x379)%0xba4f while n<0x2cf and e%0x456c<0x22b6 do n=n+1 e=(e+670)%7481 local d=n+e if(e%0x183c)<=0xc1e then e=(e+0xed)%0x9757 local e=49663 if not c[e]then c[e]=0x1 a={};end elseif e%2~=0 then e=(e-0x6b)%0xb244 local e=677 if not c[e]then c[e]=0x1 p=getfenv and getfenv();end else e=(e*0x1a9)%0x3947 n=n+1 local e=82138 if not c[e]then c[e]=0x1 l=string;end end end elseif e%2~=0 then e=(e+0x17c)%0x5204 while n<0x124 and e%0xada<0x56d do n=n+1 e=(e*247)%11547 local d=n+e if(e%0x395e)<=0x1caf then e=(e-0x3a)%0x5100 local e=30877 if not c[e]then c[e]=0x1 s=tonumber;end elseif e%2~=0 then e=(e+0x32a)%0x7e9f local e=9629 if not c[e]then c[e]=0x1 end else e=(e*0x1cb)%0x365f n=n+1 local e=721 if not c[e]then c[e]=0x1 p=(not p)and _ENV or p;end end end else e=(e+0x253)%0x4685 n=n+1 while n<0x3c4 and e%0xf30<0x798 do n=n+1 e=(e-322)%43479 local h=n+e if(e%0x2660)<0x1330 then e=(e-0x31b)%0x72fc local e=28722 if not c[e]then c[e]=0x1 d=function(d)local e=0x01 local function c(n)e=e+n return d:sub(e-n,e-0x01)end while true do local n=c(0x01)if(n=="\5")then break end local e=l.byte(c(0x01))local e=c(e)if n=="\2"then e=a.SUUKrlFp(e)elseif n=="\3"then e=e~="\0"elseif n=="\6"then p[e]=function(e,n)return f(8,nil,f,n,e)end elseif n=="\4"then e=p[e]elseif n=="\0"then e=p[e][c(l.byte(c(0x01)))];end local n=c(0x08)a[n]=e end end end elseif e%2~=0 then e=(e+0x1f8)%0x354 local e=47836 if not c[e]then c[e]=0x1 t="\4\8\116\111\110\117\109\98\101\114\83\85\85\75\114\108\70\112\0\6\115\116\114\105\110\103\4\99\104\97\114\110\70\98\95\74\71\118\67\0\6\115\116\114\105\110\103\3\115\117\98\68\87\86\65\116\79\90\66\0\6\115\116\114\105\110\103\4\98\121\116\101\104\88\74\106\66\81\106\70\0\5\116\97\98\108\101\6\99\111\110\99\97\116\119\72\99\72\102\97\107\84\0\5\116\97\98\108\101\6\105\110\115\101\114\116\111\69\77\87\107\120\80\103\5";end else e=(e*0x24d)%0xa10f n=n+1 local e=43965 if not c[e]then c[e]=0x1 end end end end end e=(e-681)%11816 end d(t);local e={};for n=0x0,0xff do local c=a.nFb_JGvC(n);e[n]=c;e[c]=n;end local function h(n)return e[n];end local l=(function(f,d)local t,c=0x01,0x10 local n={{},{},{}}local p=-0x01 local e=0x01 local l=f while true do n[0x03][a.DWVAtOZB(d,e,(function()e=t+e return e-0x01 end)())]=(function()p=p+0x01 return p end)()if p==(0x0f)then p=""c=0x000 break end end local p=#d while e<p+0x01 do n[0x02][c]=a.DWVAtOZB(d,e,(function()e=t+e return e-0x01 end)())c=c+0x01 if c%0x02==0x00 then c=0x00 a.oEMWkxPg(n[0x01],(h((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+l)%0x100)));l=f+l;end end return a.wHcHfakT(n[0x01])end);d(l(185,"pb D_:1O6ePA^QW&_^"));d(l(87,".zhNl>KqsXU<x8HbUX>sKHzs<b>bF8Ubb>bH<s>Xk>UplX8ssxlx8hqblqsUNllsHls<NbHsKXNDxss<h;HsXhhUKHz<hb8UqUhs8q>bhsxzl8gUU>KKeb>l%NzXxNKUoU<s>UUz<hlbJ<UN>z4qqxlx88Uql8xxXb8UsqXXNKbhsb8>H>sKN9Hxs8z88xKHzhxhqKzT<UzhxN8NKHhKxsKXhz<qqN_X<NKKQsXlKXbl<KK5(KUHNHXsllNxblX<>>bXU>%bHKq>h8HUXhNqxUqH8zqUXKhX8UsHzl<qK<(s8Uqbh88zD8<>XKq!hl<hKxHxX>K?zU>hbbzl<sK>jb<K>K!lUK>NbbUN><HbqHh5xsN!8HbKsxNKHXs<8>H8sbNU8lqbNdHKszhKxNqzeqUU>H<UK>q8zbxUKl{bxaKIzKxUKNzsXhl8bllUbl{s<N>Ngz<rlXbsUlNKxUXXlXbKNz8xbhs8N88bsKlcH>Kszb<l>HIH8qs><8KUqxzX8>qh<sxhqzz8xKqhbh<KN8z<XUK>HqUqbK"));local e=(-351+(function()local c,e=0,1;(function(e,n)e(e(n and n,n)and e(e,n),e(e,e))end)(function(n,p)if c>496 then return n end c=c+1 e=(e*399)%18448 if(e%1038)<519 then e=(e*734)%2765 return n(n(n,n),p(p,n))else return n end return p end,function(n,p)if c>153 then return n end c=c+1 e=(e+510)%11335 if(e%422)<211 then e=(e*858)%15342 return n(p(p and p,p),p(n,n))else return n end return n end)return e;end)())local r=a.bozjvGYW or a.xjfZ_LFQ;local de=(getfenv)or(function()return _ENV end);local t=4;local p=2;local j=1;local d=3;local function pe(k,...)local h=l(e,"tW-pJ<+>Ve3!Zc2iec<2Vc!Z2c-+Je>V3>-3+23WZV2-pd+pVVZ-2+W!Jezcpe+Vp>-eJWKi+zZJ!J2nbi-2ci<JeiKV+!<!V>!+2<WJJp>-!eWS9--2<ciZ<JTZV<<J!e3V22:Jpp+-cV-<+p+2!ecc-JJp>>ei3VLJ-2+WVJZ+23WiJc+-3iZci2p<+Z-!<>V+ccJ!Vi-c>e2-cWW+-c<ZV!-ZJ!ey3V2eWVpe>>e!Z<Z322WcJ2VJ3iccl2p!+>eeZZiV-e-<<WVU3ic25cpZ+!c3ZZiV-><+V<!J2pJJVW>-3%Z2ic-ZVZVc!e2VZ>e+!p-Jc+JJpp+eVi!22c+Z!>c!--pc>e>cc3icZ<i3-W<7>ix-JZ>!3>!Vi3p<<Z-V<2VJ!p2-<J3VcXWz-2<iei!ii!!3i-W+J<>Ji+p2+3epZJ32ii<VVJ!2ip332JR+p<+Ji-0V<3>p!VZ2W2J-<>V!cJcip>ie-<<J+!+!!eJJJV!y3GZZi!>-+<p_Z!i;<>J+>!3-cWTK>VZZFhp(JZVV3Zcc33c+z<pJ+pe-ZW-W<i<^e+3Zc! 3V+c>a+pJJVVe!+2W)J<JVW3>c!app2J-e-!Z2!W!<p<<!>2+Wpc-Pe-2<cVZz-JiVce!cZWVJ!+ce+Z>eJZ62i723<ZV+22-J!p!+>e+>c<!>FW+Vei-2-_2pc+Ze!Z3ieJZe>VVZV2JWpJ-!-Wvpi>,eZ!c22--<-V+32e+iVJ8+J3<Zei<p-iWWcJZD!Ze3cpZJ43VeVZJipc->pZepi23Jipi+!e3<ecc3ic+VVi+2+W-JWpRi!!ep-pVecVc!e2VW>-J1-eV2zJJpJ+UViZ3cpJeiJV32!c!;>p+ec3!p3cc-ee-VW!cccYZp!32i2p!<3V!Zp2VWJ<)V<VWcpz-p-+n-2<3Ve+V_V++Z<>>2<cJAJpn<iV2-!<We-Jc>e3Vc>8+p<+JZ+6-iJ-UJi++c33p<iJJ3!e3cei+-<<J!p2lW-pre-cpknp!+eV2>eZ!-+<!Vp!VcVWJcJku-ip+pVkZ+!WcV!>!3>c++<!+!V3JZ!p---J2>c3Zc!T3pee+c>Zei<-Jcp<pcpW2W!VL>0eZZ!G3<J<>J3!2->W+J!>-3WchJWViZ)i>-!J!>Z!p>33+c<WZp2>ZiJZZpW-g<!>Z3!c3Ji3Wc<i3/!<ce<Z<i<ipJ>>>3ecAeccWie-V<>Ze-J<-VW3>cJWJc-i2-c<ZV!!32eWVJ>>e3<cJZ!J3VipeZipS-vJZ>!2-2-E<i3+2c>Z>ip--ee3>iiiiW+>2+2e3Ze2qZ>e2H{Za-<W<>J3pc-vWpd<ip2Ze!!iJW>J+><i!pJ+!3<3+i2prp;VJ!J2+Ecc3W-p++<eJGJ<+V!Z<i---p*>Z3.ZiicZ!i>-+><Z:>Z!3W3V->-e2ZcVJcJVWpJZJ-eWeJ<>JJ!ZpZ>i1+!cqZP2ZW!p---c+VlW+>>+>epZ-iW-_Ji>2ZeWZBcp2+eeVZ>pVV+Z>2V!J2-Wmpi+2ZiZii!-3<eVV!>2+piVJ>+3-cWp_J23ckc!i-cWc2pWWJK+ie2Zc%ZcWZpiWWiJ2>c2Yc2b3pe+Ve>Z+i<<kepV<!W20<>6JWpWec>pZ-Z<VV>!+2<WJJpe32Wcpii-2-<>J2V3c->V3>33+c<GJpp+-eW2--i-WJc>Z3!c38epVVcc+Z>W!-p<-VW0JJ>>>!4VZXWpp+<Vc>>icW+<>pp!-2p.iJp+pe{cdi(W2_eVi!9236ciJ<o3Wc&i2W-<pV*+ZcWccc!CZp>++e<W>+>eWZWVp3ic26cpZ+!e3!ep>-e+WV<!J2p<p3iceDZ-i>We<Z3iVj-JZW3J+><3JcpM-pWe_ZiZW2cWZZpp>cie!W<>V+>e<Zpi--WVpV-32ccpG2{VcJ-cVpe-e<<VJ+p2e>Vc,>-2,ZiH}-!<3Ve-iJV>i!e>+3Zc-1Wpq3=iZ-+<e>Z!22-W>J<;Vpe+JepZ-JWVZ!6i>3i2pr!p3+e2Vpp<>e2!ei<-<2pWJpi+2ec-#+)3-ZcV!!>2+W<JJ>p3-ceJIpW+eVc!Z2!++!Vc!_VJ-<<3{ZJs!-++--W<!>c3Zc!<->2!J2p8iJV+Z>pc<ic-W+-V++i3-Z!i3-e3li+-3J>><!<><3WcjJ><<>-2iZ>-ZWZJV>>3+c<nJpp>+cWZ-ipW2Jc>ZW-p!>+ec+ee2Z<iJ-pe3i+WcJ*>Z3Zc<iiZcie-V<>V+!<2J-pV->p!GZii2-cc<i3-i<!>>3V2Jz2JW+J3+Z3ii-c<>VWJ2VX33ceEV3>Z>i2p+++-<<WVBi>!2ZV<W><cZZZiV-><+V<!J2pJ+VW>peiZ2V<->c9>WZW-3W3J+><VmWpi?c-> cWZfiVWZJ!>3i3Jc>zeec !JW+<2V-Zp2>!WccuZ2pei>-iZ67+V<V!>2+W<JJ>p3-eW7Zi2pV<3Ve!VppV<3+cV2JJ5+3ecZ}y--+<!VeJc>e3V+i!-+e->3W;JiJ-*Ji++<3cWi!J-3!e!Z>i+-<<JVp!-4W<#J2+2ecZZf--3<eVV!e2cW<JJ>p2<J,+2ecZpibp(2c-<Je>V3>-->Je>ZJi2WW<ZVyZ>2-W2ccs2pe+Ve>-c<+eW!VVJ!V2rIip2!cUV-Z>pV2Z3i3!ViJWJJp>-2-p2+Ve!!2l4-J<eV>eV2px>J2+ee>+Je3ZF2iW2e{2JRZJZ+3e!c!i!p>i+-!<-VW!z->Vp33Zc1epe+-VZ<VV+!<2J-eJ->W3EcWk3-c<ZV!72<-V<3ZZ+WJJ>+Z3+Z3ii-ci_-WJZ>!33-e>JeVcie>ZZip--<WZeWc<WVWecceic-2i3p-<+V<!J-J>+3!2<W-J-<HeZZ)2iWc23WZJ+><3Jp>+>ecZWaVZ&i3WZJ!>3W!p3>ie>cV(>-V++V3!J!eccjZ42p2+3eeZVWZV3VaV+!+2-WWJ6ccmpJJi2pJ<3Ve!V-3>23+2+ Jp<><e<cWeLZ32ZW!J3Z<W>pV+3>+c-iZ-i<-eJ!V2cW!c2W+p3+eeVQV+JV2ZW2J-+J3>i3c!>nWZ2ii-3<eVVU3<3VJ!J><3VcWad-icWjW-2<JVV!R>3!<c+=<pJc<iJpe<We-ZW2--%JJ+2>pe>Z+i+i>-Z<pV-!W<J>23Z2-)e-c<ie!<3VZ!+2<WJ!&cpW<pp+>pr+JVZ!!23+e!JcVWip3>+3++JeZZM2iW2ee2!Y2p!><VVcpi>p2<ee<<JV>!uciG23+cZiZpp+!e!<eV3!<2JWp3ec-LcpJrPp<<ZV!!3pWVc!Jc>WpJp+Ze++pee!i22WcVc2eWpJ++e3!ZiAJp-iJ--<WV,!5c2BcpZ+ce2ZeiV->3eie-p<pW-JW>9eic-ic-Z<!V3532VW>J+><3Jcp1-<W3pVi!22cWZJ!>!3ecVp<p++<eJZ<i---<x>iW3cc7Zp!+!eeZVi>-+V>VJ!p2--pZW+ieiZc9!-!<3VeZ32!W+J>>J!oc-QWp&>i3!!c22W!JZ>e!Vc>-+pZ+Je+Z-iW-4+<>2Zcc2&!pc+ee!Z>oW-<++e<!-2<WIJ++2ecZZi!p3<eV3!>23W<JJ>p3-ic:1p_<2Vc!Z2cW3<!Vi3>cVl<J>+pe-ZWi%pjJ2V83Zc!_3pe+Ve>cei<-+<pVJ!W2J5iJ->3eZZ!i3<V<VVV!+2!e>Jp>p3Wciii-i<ce-!!22!3JV>>3+2JuJpJ+-e<+W2iW2Jc3!3!c!7e<V33e+ZZiJ-p<-Vc!xci!3pc>pe!ZZie-e<>eVZJ2JW3J->J35Zii2Jc+2V!ZW2eWiJ>>23<2+Wip-+eeEc<22WcJZ>!ZWce^ip>+Ve<Z+ippJ<JV#!>c2WppZ+!e3Ze*>-><iV<!<2pW-JW>zWiZ2F<-Z+pV3Z-2V->vJ><3!cpNcpW+VVicbgpWZ<p>3!ccVg>p+V<32Zpi3-W<V>i!icc-ZJ}+33WZVii-++>VJcp2>WWJV+i3+Zcv<-!>33<!V2iW+Jc>J!Vc--WJc<ie+!ciJW!<J>e3V+>_+pi+Je3Z-iW-HJiQ!3c2J !JJ+ee3Z>-+-+<JV3!-2ZW9Jc+2!cc<i!pp<ee#!>2VW<JJ>J3-c3fXpW<2V2!Z2!pJJeVW3>cVS<pJ+p3-ZciP->J2>23Z2Jm3<e+2e>Zii<-Z<pV+!W2z+_p2>VeZZ2i3-e<VV>+W2<WcJp>c3WcWiiJM+3VZZJ23W2JV>>3+c<<<pp+ZeWZJ2iW2JcV-cic3WJpV+>e+Z+iJ-J<-VW2Zci:2pc>Je!Z3ie-V,-V+!22JW2J->-35Zi>c-c+pV!!32eWVJ>>Z<icJ*<p-+ce,Z022WiJZ>iJ!ce4Vp>>-e<Z<ip--!cVX3ic2Q2pZ+!e3Z3UV-><+V<Z+>VW-Jp>#3-Z2ic-Z>!V!!e23W>JV><3Vcp--p++BeW!22iWZJc>3Zec!o>pV+<e+ZpiV-W>(V232ci/Zpc+33HZVic<3<<V>!p2-WWJW+i3pZciZ+><3Ve!V2>W+J<>J3p?2YWpa<iVi!c2ZW!J3WZ3Vc>Q+p<+JepZ-iWZpJi>23cccU!p3+eeV+3i+-<<JV<!-2WWI<i3eeccai!-Z<eVc!>5+W2JJ>>3-c<6rp6<2VcZ>2!-bJe>!3>c+/<pJ+>e-Z<ik-<J2>23Zc!-<pe+Ve>Z>i<-J<pVJ!V2ILip2+i3<Z!i3-ee!2iW><>><3+2+Y+J-*Wp+<cVZ!!p-V2!<cVWJJJ+ce>+JeVZm2iW2ec2V?Z<p+233c3eVZeiJ-p<-2VWWJZ>ppi>>e!Z3ie>JZ+2eW+<z+p32c-WepJ>n-i+pV!!32e<!!+2JWppe++3++pei!i22WcVc2eWpJ++e3!ZisJp-JpV2!-ieWJJ-*2pZ+!e3ciiV-><+V>ZW2pW-JW!Zz2-i+W+cZeip-+JeV!3i2JW-c<7cpW+yVi#3<Z>i3Z2+ieJJ+V3iZ37+Z<i3-W<m>ii+<->eeZcVMVpW<!-V<!VJ!p2-VJ!J2WT>p!+p-c+<Ve!V2><>3ec2WVJ<><VpZiip--<_WcJi>e3Vc>>pe+cVi+-3ip-pJi>23c6W+i+<+!3WZ>i+-<e<iWW!J2>W!pc>&Zp3ic-2<eVV!>Jc>+!WcV3Jcc.1-i<22W-<<V>iee2>W3pi>eecc-RjZpiVWiJ2>c-RJ3>V32c<ie-!+>-+<>V-!W2S<i33Z2W<Zc0W-e<VV>/+<W><!Zc>WpJp&Wp+<cVZ!!ppV>!!2!,>Jp+>eV+Je3ZA2iW2e=2JoZJZ+3e!c!i!p>i+-V<-VW! Jp>p3eZcWJZZic-V<>V+vV<VV-!->p3!Zii2-cecie-p<+>e!!ciWJJ-JZe++pep!i22Wc!32k-Wc!W<p>++e<p+<<e3!-ip--JpVW3<ZicJiV->-e+JV<!J2pVJ3p2VamJW>6eWZiipWc--J+><3<3+ceh-pW+xiV-2J2V<!c2c33cVy>p+++eJZpi--p<J>i32cc<i3iceEeZVi>-+<<VV!p2-WWJ8Zme2ZciZ-!<3Ve!Vz><eJ<>J3pc-mWpW<iV22!2ZW!J3>!3VcV;+p<cXepZ-iW-WJi>23ccZpZp3+eeVce>>-<<<Vp!c2WWEpiVFe2ZZic-3<cVV!>2+p<J!>p3JcWO--i+JVccZi+W3JZ>V3>c+?cpJVp3>ZWipWi<W>c!2c!WZJp+Ve!Z+iZ-J<pV-!W2>EiJH+c3OZ!i3-e<V!p!+2+WJJp>-3pc1WWpJ<cV2!!A,WeJV>>3+cVqJp++-eWZz2iW2Jce>3!cZGep3+>e3Z<iV-><-VW!O#cC2p2+Z3W<Zie-e<>!J!<2<WpJV>W3J>ki2-c<Z!e!323WV+>!e3<c!:pp-+W3W!i22ZeJZV-33c!.VpV++3>Z+ip-e<WV23ic2Nc<Z+2e3coiV-2<+eV!Ji<-pJW>Veic+ic-Z<!V3ZJ2VW2J+>>3Jc<m-Jp+eViZ+2cp5J!>33ecVWpp++2eJZJi--W<&>i-2ccWJp!>-eecWi>p+WpVJ!32--pJ/>>e2ciE+-!+-VeZW2>W+J<eJ!Zc-%epH+>V2Z32Zp!+W>e!vc>(2p<++ep2-9--k<>>2!<cZW3p3Ve3pZ>i2-<<ZVp!<2Wp1<r+23<ZZvp-3<3VV!>>+W<J2>p3ecWxw-i<2W3!ZipW3<p>V3ec+p<J<+peeZW9-Wi+p>cZZ2^m3J-+VeiZ+)W-J<pe-!W2eliJX+cecZ!i3JW<VeR!+2>WJJp>-!W2Ziip+<ce+!!ipWe+V>c3+c2,Jp!+-e+Z#2i+iJcV>3!cc^epV+>e+>AiJ-Z<-VZ!O2mo2Ji>ee!cpiepV<>V+!<2J+JJ->!3bcpi2-c<ZeW222e-pJ>>+3<c<Yppp+Wegi!22WcJZVp33ceYVp>WWe<Zcip-c<WVW3ic2VZpZ>-e3ZeiV-><+V!+22pWJJW>ZeiZiic-2<!V2<32VW>J+VW3JcJ1-pWZZVi!22cWcJ!>33eceW>p++<eJc<V>-W<->i!-ccLZp!V3!MZVie-+<>VJ!+2-pWJc+i3.Zci2-!<iVecV2!W+J>>J3<c- -p&>ie+!c22W!JZ>e33c>,Z+e+Je+Z-iW-X<(>2!-cZ)!>++eeVZ>i+-<<JVp!-WcW}pi+2e2ZZi!-3<e-!!>2+W<JJ>p3-cWsRc-<2Vc!Z2ZW3Je>V3>>ey<pJ+peJZWiHWi+2!V3ZciP3p!+Ve2Z+W<-e<pV+!W2JqiJJ+ceZZci3-i<VV3!+2<WJJp>V3WcJiipJ<cVc!!23-cJV>>3+c+lJpp+-epZ>2iW2Jc>2!Jc3OepV33i2-+++VJ!<i<W<<WW_JZ+Ze!Z3p3e+Z ipW+<V>Z!Wcii_p!<i3+ZW2i!ZiGWVJ>>+i<J=+J3!Z+}-p-iC-VJZ>!33-<>>e3Z>wWWJ<iVpZ32<-W26WWpZ+!e3p,<eeJ!!V>!!2pW-JW!pS2pZ+!eW!2i2!!i_W>J+><2ZJV+ie-Z2i2-><WWcJ!>33e23?>p++<e+Z!i--W<^Z>-pJ3+c3eceC--Zie-3<<VJ!pp->c3W2V3zc&iZ-!<332WZW-WVJV>J3pc-+ie<c+eQZ+2ZW!J3!3W+Ju>pe+cViZpW<i--<>>23ccZ>i3ec>%cpJ<VV3Z+V<!!2WWDpi!W}<-c+cV!!ZiZWZ<VW><W>p3-cW>-eWc+22-i<2>i!c2WP!W)pJ+p+<ecZWiDWie32Z5ipZ>+VecJiVpi<3e+<<V+!W2DaieW2WU!p!iZ-2<VV>!+<-><!>c<.ec-*<-2<cVZ-2<2V!!W2<7cc>u!pp+-eWW:<!>iZ+2WWcJcn!JY+>e+Z<pceWZ<i<WWJc>W3-+2eiZ3ie-V!22>--JeW<JV>W3dZi+>ec!ciJ-Z<ZW3<J>+3<cJJi3WZ-iJ:_<ZV+!ecZW2J->>3<+V34ZJip--e-22WVJ!+2!scJXep>JWV!<+V<!J2pp>JW>}ei2M>2-Z<ZV3!i2VW>J+V>3+cpoJpW+ZVi!22cpZ<e>33!cV9ep+>reJ2pi!-W<p>i32ccWWp!V33PZVi3-+<VVJZ<2--p<Z+i3-Zcii-!<3Ve!ViZW+J>>J3>c-%Wp(<i!3!c2cW!J3>e33c>WVJV+Je<Z-%W-qJi>23c22.!pc+eeVZ>i+-<<JeV!-2pWEJW+23WZZiiJ><eVV!>}VW<J<>p3V+p;Rp}<23i!Z2ZW3Ji>V3!>>;<pJ+p!JZWiWWi+2Z&3Z2-f3pe+V3WZ+i<cv<pVe!W2-Aipi+c322pi3pq<Ve<!+2<WJ+p><3Wc>iip<<ce7!!iZp-JV>i3+c3KJpp+-eWZV2i-<Jc>23!cZKeJ3+ee+ZciJ-!<-VW!%ciW2pc><e!Z!ie-V<>V+p<2JW!J->e3vcVi2pcW3V!ZW2e-3J>>23<2+oVp-+ee4Z222WcJZe!ZpceW)p>+2e<cWipJ-<!VL!>c2W<pZ>Je32ew2-><2V<!Z2pWeJWeT3pZ2:<-Z+pV3!32Vp><<><3Zcp03pW>WVi!2>cWZ<<>3!/cVA>p++<pcZpi3-W<3>i!Icc-Z>2+33-ZVii-+<>VJ!pW{WWJe+i37Zcic-!+PJp!V2eW+<W>J3Jc-Xppr+p-i!c2ZW!<+>e3ec>?+3W+JepZ-i--wJi>2322e?!p3+e33<Zi+-><JVV!-2WW6<i><ecZ2i!-Z<eV!!>Q+WeJJ><3-cp4npp<23cZW2!WZJe>33>c>;<<J>ce-Zpi6-WJ2VJ3Z2Wp2pe+!e>Z+i<-<<pVJ!W2^J!p2+ceZZ!i3-e<VV>i-2<WJJp>p3Wc,iiJ2eVVZ!i23W!JV>e3+i<0<pp++eWZJ2i-JJc>Z!Vc3^ipV+3e+Z<iJ-p<!VW!JciWJpc+ce!Z3A>-V<>V+!+2JWpJ->p3>Zii2-c<2Vi!32eWV32c>W-peS<pe+WeP!ipWVZ!32evipZ>Zpe+ie<ZJip+<!e2W-Wpi>u!Gc%,ZZ!ii-><+V<KJJi>p!3c<WWJWiip><!V3!epJV+3ec+W/-p+2e-ceiJp:2i-JJ!>33e-.>Z3pZ+:-p-<!V<<-V232ccSZ>ZcVh-p<<Ve3!2ip-Wp->c3W2VTppWic-!<3VeZ22>W+J<>+!}c-lWp(cWi p<JcV2!cc2WZJ;+3+iepZ-ZJi<-aJi>2icJV+Z!p+!ecZ>i+-<!V2VW2J-VeJW>ZecZZi!eZ!!Q(WV<eVV3e2>M!p<p3<2Vc!c!2iJW3Je>V23p2++3+ZJi<p<<<eW<.Vr3Zc!A33>Zc_2ZVic-J<pV-i3J2V-!-Z2Y3-2<i-!<2V>!+2<>c!pcpb3J->-pI+VVZ!!23+<!>c3,>JW<JeiZph3-<+W-y<V>Z3!c3J3eZcW0!pV+V>+Z-2+W<JpW;JV+Ze!Z3p3e+ZLipW+<V>Z!Wci2epp{,p-<ZV!!3<+>e!!ce*cc+l>p-+WeuW-+-VZ!Z>c!pceaVp>3>%p-c+qVpZ<2eW2JZRipi+!e3ZeWcV!VWV>!Z2pW-JW2Jn2pZ>-ee!c2i-!23-JJ+><3JWi>We-ZJcr-Z<+Ve3Z22W-J>><pV>WeJZpi-><!e2ZWp-c>!32cpIcpW++eJ<>VV!p2-WW3>cuL!p-i2pW<3Ve!V<3V3!>ccWWpewppV<iV2!cpJe1!>c3W+J++iee++e3Z-iW-&ei23z2<<>k3ZcZeeZ>i+-<<<Vp!-2WW-Jp+2ecZZJ2e2ZViV!>2+W<JJ>>3-cWMA-i3iVc!Z2!W3Je>V3>i+JVpJ+pe-ZWij-EJ2>cc3c!w3pe+3e>Z>i<-J!iV-!W28W7p2+ceZZ!-Z-e<VV>ZV++WJJJ>-!WcQii-2+i3T!!2ZWe<Z>>3+c<-Jpc+-epZ iWW2<e>ZZ!cZMep!+>e+Z<Y--p>-VZ!h2-U2Jz+Z3+Z3s!pJ<>V3!<ipWpJ->W3_c2i2-i<ZVi!32eWVJ>3-3<c<9pp-+We-!i^w-<JZ>c332W8Vp>++e<Z+ip-<<WV53ic2GcpZ>Ue3Z!iV-e<+Ve!J2>-3JW>^eiicic-c<!eIpZ2VWVJ+VJ3JcJx-p>+sep<i2cWZJ!Ve3ece(>p3b+eJZpi-<#<TV)32icJip!>WeeZVi>pp<<VJ<i2-WVJ&>We2Z2iZpc++Ve!i2>WcJ<>J3pi-W<ph++V2ZJ2Z-WJ3V!ZJc>{2p<>-epZ-iW-X<O>2!JcZ_cp3+!eVcei>-<<ZVp!p2WWqpi+23!ZZ9J-3<3VV!>2+W<ZJ>p33cW{V-i+>VcZZ3eW3<s>V!-c+wcpJ><33ZWiVWi+W>c3Zc!-3p!+VeiZ+ic-J+eV-cW2JMiJ++c3JZ!#p-e>VeW!+2cWJJ!>-3+c}WiJV<ceJ!!i-We<c>>Z+ce1Jp!+-eeZ)hgW2Jc{Z3!2J1epi+>e+Z<iJ!o<-Ve!q2eC2pi+ZZ!Ziie-i<>eW!<2VWp+->-35cVi2p<<ZVc!32e-2J>>i3<c+?ppp+WeCZ322-+JZ>c33ceSVJ>>Je<ZZippJ<WVe3ii2WZpZ>Je3cWiVpW<+V<_<2pWcJW>peiZ2ic-Z%+V3Z-2V--J+>+3J2<FipW+eViZW2cWZJ!>3i3cVWWp++eeJZpi-->VJ>i!ecc8Zp!+!eeZei>-+eWVJ!p2-WeJ7+ie2Zc3>-!+pVeZp2>W>J<>J--c-gVpS<iV2!c2Z-WRJ>e33c>W-p<+<epZJiW-Jij>23ccZW>p3+3eVZ>+--<<JVp!p2WWEpi+i3cZZi!-3+!Wc!>2VW<J<>p3-cW-Sp!<2Vi!Z2cW3Jc>VZ>i-x<p++peJZWi<Wi+2eV3Zccb3p!+Ve3Z+W<pe<pVJ!W2-AiJJ+c3-iii3-Z<VV>!+2+WJJV>-3W4Zii-2<cVZ!!23WeJV!p3+c<oJpJ+-eWZ_2iZWJc>Z3!c3RepV+>e++ViJ-p<-V-!^ci)2pcFie!Z3ie-3<>V+!<aJJ2J-><3TcWi2pJ<Z3!!Z2eWZJ>>33<c+Hpp->JeqZ<22-0JZ>!33ceWEp>+3e<Z3ip-p<WVSZ>c2CcpZ+Ze3ZeiV-e<cV<!J2pWJJe>HeiZ2J<3WZV2!-><>V=33>>3!cp#-pW!=i!Wi++VW!c2c3!2p9>p++<2bp-<<V-!ZZiW3p2V<3acZe!cWi>-+<<Z>W!JpVp3Wc-W-p-+2-c<2Ve!V2>>c3+2WdVcJkVp6<iV2Tf<!Ve!Vc2R!J!%VJJ+JepZ-p-V2!V2!n2<F>J3ec>2Vpp<>e2!e2>!p2WW{piVJecZZi!-Z+JVV!>2++W!pc+Pppc<be!!ir+-W<cWZJ2>V3>c+>-e<c>i<-ei--<J2>c3ZJJ>3e3cW#epei>-c<pV-!W-p>>eiciic-2+2V2Z3Ve!i2<WJJp!p.ipe+ZVicWi<-3<VW!<G>>3+c<JZ3VZii--2<2V>!W>2!Wc3 epVc3)3p><ceW!eVp!Vci42pc!<Qepc+cVeZ<2eW32+W+J->W3aiJ+-<V<2Vi!32eWVe>2-1+Jc:<p2+We6!iJ-V+!e2)i3JV>!3 c3i2pp+W-J<+V%3ic2>W3Wc>i!J-i3-2<+V<!Jpp>23-2eXJJG>M-2<iV3!e2V>23>2-Iec<fipW+gViM3<Z>c3i!!W>JW>Je>ceicp-+}-p<J>i32cc<i3iceIeZ3n--+<<VJiJJ+>!!<2-W--d+ZeK!i2c!32iW+J<>JW>JW+i3<ZZir--<2Wc<>>e3Vc>>Ve>cZiJp<+JV<Zp2>WWW+p3+e+!3pZ>i+-<e<iWW!J2>W!pc>LZp3JJV2<!V!!>2+W<!-cVWecp62-i<2Vc-2Jce-332!W3p!>eecZ>ZZi:WiJiJi>c3Zc!l!pe+Ve>ZVie-J<pV-YJ<J>232+ceZZ!i3-c<VV>!+2<+<Jp>-3Wc6ii-2<c3Zi223WeJV>>3+c+UJppe?eWZS2i-hJc>c3!c3><pV+>e+Z+iJ-p<-VW2Wci#2pc>2WZZ3i3-V+eV+!<2J-<<W>W3-Zi0<-c<ZV!c3i>WVJe>+3>cJ6<p-VW3!!iiWWcJZ>!3ice-VJV++eVZJi+--+<V:ZWi+0cJf+!3pZeiV-><+V3!J2<W-J<>heiZ2ic<V<!V!!e2VW>JV><!+cc -pp+De-!22cWZJ!VZ3ec!f>p++<eJZpi-pW<XVW32ci9Zpi+3ecc+i>-+<<!-!p2pWWJ+/We2Z2iZ<e<3V3!V2cW+JeW<3pc-}W<2<iVi!cmZ<2J3Vg3Vc>9+J<+Jep+2iW->JiVE3ccc1!JZ>ieVZ2i+-c<JVp!-EW-<pi><eccpi!pi<ee3Zp2+WcJJ>V3-cWlB-i>+VcZp2!WZJe>33>2Vf!pJ+!e-cJi*WiJ2>cZ+c!Wppe+ee>Z+i<-JcpV-!e2*W>p2>+eZc!!V-e<iV>Z32<WZJpVJ!<ch5>-2+!VZ!!23pe<V>>32c<^Zpp+ieW2G%+W2<<>Z!pc3I3pVV>34Z<iZ-p<3VW!Jci-2<3+Z3pZ34W-V<cV+c<iWWpJ3>W3VZixc-c<ZW!!3ipWVJ2>+3<cJ&p!i+WeV!iiVWcJ2>!c32>UVp2++3eZJle-->WVZ3i2>scJJ+!3JZeiVpZ<+V2!J2<W-J->Nei23icp<<!VZ!e2VW><+e-3Jc!D-pZ+heV!2nc-cJ!Vp3e2Xf>J>+<eJWJi--Z<UV-32ccEZp!W<eecWi>pW<<V<!piJW2Jg>Ve2ceiZ-!<3Ve7e2>-/J<>V3pc-lWp+epV2ZV2ZW!J3>33VcV,+p<35epZ-iW-VJi>23ccZ!+p3>-eVc-i+-+<JVppW2WW>pi+2ecZZi!pMWpVV!e2+-WJJ>J3-cpo5ppiiVc!Z2!-+Je>e3>c+>WpJ+pe-Z-ijWiJ2>2!Zc!_3pe>3-ZZ+i>-J<VV-!W2o-iJ3+ce2Z!iZ-e<3V>c+i2WJJ<>-3pc8?--2>cee!!2ZWeJ3>>33c<-Jp3+-epZkiWW2J2>Z!WU2mep!+>e+Z<i<-p<>VW!=W!%2pc+Ze!Z3ie-V<>Z-!<2JWpJp>W3SZii2c7<ZV!!32eWVJ>>+3<>>Tpp-+WeW!i22WcJZW233ce8Vpe++e<ZJWp<c<WVJ3i2#5cJp+!!32-iV-!<+Ve!J2eW-JWV!eicJic-i<!V3!e2V-2J+>e3Jce/-p-+MViZp2cWZJ!>!3ecVn>pV+ZeJZpi--p<!>i32cc<V33Zci3pJJ>e-!+icWV<JWpJe+ie2Zcpiep!!i!WeJ3V3332+3<c3uWp/<ic+p-<e>Z!V2VWWp!1Vpe+JepZ-<VVW!Z2p3i2!0!p3+ecep<<ie-!<i>W!<n>2Vic3i2J<+EV2<!Vi!>2+W<eJci;pJ3+<3WcWViZp2!W3Je!!W+JJ>peeZ+;+Z-i:WiJ2ep3Zc!b3p!>pe>Z+i<+<ZW2!W2JWVp3>cZ(3WJ<2-!<cV>!+2<VW3J2+TJpVsWp-<cVZ!!pcVc!>2>3Vc!)Jpp+-i3pd<KV>!i2i3c2-^epV+>cipp+>e>!p2iWpJJW1J-+Ze!Z3<cVcZp2>-22+-WJ->W3lJW+,3<!ci2-cJ2VZ!mc3ci?pp-+-+peJ!i22WceZ2> !<-(3JJ++e<ZJ+<VJZe2W--<W>-!IcJi2=p-><+<VVc!J2pW-Ve2<vZ-i+!e!ZJ22!!2!W>J+><Zep>-cpp+!Vi!22c+V!3cc/3JJ<>3-Z+ c-V+J-p<V>i32ccV}33cVy2p<<eV!Z>V+!>2-WWJwc+iip3+W-c+<Ve!V2><>3ec2WVJ<><VpZiip--<aWc<>>e3Vc><-3JZ<i>ap<iVe!Zci-WJ<>33V+!e!Z>i+-<Z-2V-e2pW+pi+2ecpi+ieZZ-i+W22VW2JJ>p3-W-+2eVZ!22p1<JVe!>>3!pc+h<pJ!>i!-2<<+i!cilW<Ji>p3Vc+eeZii<-J<pZ<WeJWVWeic_W/pA+Z-!<iV>!+2<+J3icpW3p<>W3W<2VZ!!23W3JV>>3+c>%Vpp+-eWWp+pVc!c>Z3!c3hepZ+>e+Z<iJ>J<-VW!Pci12pc+Z!!1cie-V<>V+!<2<WpJ-ei3sZii2-i<ZVZ!32eVJJ>>+3<c<zpp-+WejiW22WcJZVc-!ceyep>>pe<ZJippJ<VVP!Wc2WipZ+!e32er2-><VV<!+2pWJJWe4!3Z2F%-Z<!V3ZZ2Vp><Z><3>cp <pW+WVicQiWWZJi>3!JcV/>p++<ecZpiJ-W<J>i32cclZ+>+3e3ZVi>-+<>VJZ<i3WWJ-+i3-ZciZ-!<3V3!V23W+J<>J3pc-UWp3<ieP!c22W!J2>e3Zip7+p<+JZ-Z-i--u<<;W3ccc7!Je+eeeZ>iZ-<<V-J!-2WWkJ2+2e2ZZiiZ!<eVV!>W<W<J<>pZ-WJBwp+<2Vc!Z22W3Je-J3>cc;<p++pepZW(--2J2VJ3Z25x3pe+V!>c+i<-!<pVe!WiW1i<l>WeZcpi3pZ<VV>!+2<-eJp>e3Wc-iipK<ce2Ze23-WJVVu3+c<yJpp>eeWZe2iWiJc>Z3!c3VepV+ie+ZciJ-Z<-eW+2ciW<pc+ce!c-iep3+-V+!c2J-WJ->W3k2iii-c+JV!Z-2e-2J>e+3VcJ;!p-+ee&Z!22pc+e>!!-ceWop>>!e<2Ji<--<eVI!>c2W>pZV!3-ZeqS-><2V<ZJ2pW-cW>T3eZ2_J-Z<!V3!e><W>J2><32cpwJpWeP3W!2iJWZJZ>3!LcV->p2+<ecZpi3-W<V>i32iWzZJJ+3e!ZViV-+<<e>!p2!WWJ-+ie2ZcFZpW<3eW!Vi!W+J2>JZp2eEWpe<ie+!ci!W!J3Z33V2-0+pV+JepZ-iWZ!JiV>3c2>j!p!+e33cJi+-2<JVe!-2WWgpi!iecc+i!-2<eVV!>2ZJeJJ>23-cWHGpg<2V2!Z2!<+Je>V3>c2T<pJ+pe-+Zi/-VJ2VV3ZcZz3pe2>e>Zci<-J<pV-!W2+Zep2+ieZc>i3-3<VVe!+2e!<Jp>-3WcZii-i<cVZ->23WeJV>V3+c<uJpJ>-eWZx2ipQ2->Z3cc3qcpV+>e+2<u2-p<JVW!-ciWJpcVZ!pZ3i!-V<eV+!+2Jpp<V>W3-Ziq(-c<2V!c3i!WVJe>+3>cJ4+p-+>ZJ!iiWWcJZ>!3!ceGcp>++cWZJip--<WV(3ic2lc>V+!e3Zeie-><+V<!JV+W-JW>)eiZ2ic-Z<!-c!e2VW>J>><3JcpQ-cJ+sVi!22iWZJ!>3ZeWp4>p3+<e+Zpi>-W>,e>322WLZpi+33OZVi>p2<<V3!p2<WWJz+ie2c>iZ-i<3Vi!V2VW+J<V+3pc-7WpW<iV2!c22-yJ3>e3VceWWp<+JepGi<-V>!V2Wi<JW+Z3+ccSlZeii-<<JVpF<JJV-3Jcpx!Wp>&ep<!eW!>2+W<eVcVW3J<JZe,Z i--V2c-VJe>V3>WZ+23-Z>cV-3+-e-Z-ZGWJJJ>+ec+3e!Z+i<-J3>2>-e<J{ip2+ceZcii3-e<VV>Je2<WJJp>-3Wc?iiJ2+ZVZ!!23WeJV>!3+2>-ypp+JeWZ-2iW2Jc>Z!ec3TepV+ee+Z>iJ-e<2VW!1ciW<pc+ce!Z!ie-ZiVV+!<2JW3J->-3ycpei-c<ZV!Zc2eWeJ>e+2VcJNJp-+WeOZp22-i2p>!3ccefep>++e<ZJeZ--<-VF!-c2sipZ>WUJZeie->+eV<!<2pW-JW>JJ,Z2ic-Z+2V3!32Vp>Ve><3+cpOppW+JVicmVJWZJi>33ZcVF>p++<pcZpiJ-W<J>i!HccW-3<+3e!ZV.3-+<+VJ!p2-W<2W+ie2Zcji-!<!Ve!VpVW+JV>J3Jc-DWp5+i3e!c22W!Ji>e3!c>?+3W+JepZ-i--qJi>23c2pM!p3+ee3Zii+-<<JZ!->J2>W3cccy+pGicpp<eVV!>-e>c3<2<NppJ>JeJclViZ!2!W3Je!eW<pi>-e<c>i!pO<2+i!3c2-<J)+2p!+Ze>Z+i<V!!J2iW+2-W+p2+ceZW!++V3cW2Z-V<VW+J2>-3WczJ!ecZ_2c->p3V<3ei5 !J>#+p3+-eWZRp-Vc!!23WXpc>cpe+>e+Z<:3-p<-VW!-2Vd2pc+ZcZpV+-e<!Vi3W2<pVWJJ>Z3_Zii2+2Z3iJ->J3VZ!j2<WpWc+>pJ+Ve4!i22+c!VcZ-pp2>333+Ve3ZJip--!22W-pJW><p2>pe3ZeiV>jZJiV-VJJV_3Jc<3Wc-ic-Z<!cc-c<>V>JVV^3JcpC->-ZJiepp+Seqe223/2pc+!pV+!eJZpi-V3Z 2^W>Ji>ipc+ceeZVi>J!!e3i!<2iWWJ_+iWM-i>JVZZciZWc<!>i3e32c-vWLpp<<iV2!c<rVD!+c3-WceRep<+Jeppd<+e><WVe3ccZE!V+cVi!-V+-><ZR2J-!J+V-JW>JecZZi!ecZci3-I<J>ZJ+>i3-cW0RVpZ>i3-Wp!Ve!Z2WW!pi>J3-+<3gZWiRWiZRci-
+-- go to the way bottom and delete them if you get the link
+
+--change name here and there's ult name
+-- made by Uzi
+local MovesetName1 = "Slice Blitz"
+local MovesetName2 = "Quick Slash"
+local MovesetName3 = "Approaching Slashes"
+local MovesetName4 = "0.1 Second Counter"
+
+local UltBarName = "HELLISH SLASH"
+
+-- don't change anything
+local player = game.Players.LocalPlayer
+local playerGui = player.PlayerGui
+local hotbar = playerGui:FindFirstChild("Hotbar")
+local backpack = hotbar:FindFirstChild("Backpack")
+local hotbarFrame = backpack:FindFirstChild("Hotbar")
+local baseButton = hotbarFrame:FindFirstChild("1").Base
+local ToolName = baseButton.ToolName
+
+ToolName.Text = MovesetName1
+
+local player = game.Players.LocalPlayer
+local playerGui = player.PlayerGui
+local hotbar = playerGui:FindFirstChild("Hotbar")
+local backpack = hotbar:FindFirstChild("Backpack")
+local hotbarFrame = backpack:FindFirstChild("Hotbar")
+local baseButton = hotbarFrame:FindFirstChild("2").Base
+local ToolName = baseButton.ToolName
+
+ToolName.Text = MovesetName2
+
+local player = game.Players.LocalPlayer
+local playerGui = player.PlayerGui
+local hotbar = playerGui:FindFirstChild("Hotbar")
+local backpack = hotbar:FindFirstChild("Backpack")
+local hotbarFrame = backpack:FindFirstChild("Hotbar")
+local baseButton = hotbarFrame:FindFirstChild("3").Base
+local ToolName = baseButton.ToolName
+
+ToolName.Text = MovesetName3
+
+local player = game.Players.LocalPlayer
+local playerGui = player.PlayerGui
+local hotbar = playerGui:FindFirstChild("Hotbar")
+local backpack = hotbar:FindFirstChild("Backpack")
+local hotbarFrame = backpack:FindFirstChild("Hotbar")
+local baseButton = hotbarFrame:FindFirstChild("4").Base
+local ToolName = baseButton.ToolName
+
+ToolName.Text = MovesetName4
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
+local function findGuiAndSetText()
+    local screenGui = playerGui:FindFirstChild("ScreenGui")
+    if screenGui then
+        local magicHealthFrame = screenGui:FindFirstChild("MagicHealth")
+        if magicHealthFrame then
+            local textLabel = magicHealthFrame:FindFirstChild("TextLabel")
+            if textLabel then
+                textLabel.Text = UltBarName
+            end
+        end
+    end
+end
+
+playerGui.DescendantAdded:Connect(function(descendant)
+    if descendant:IsDescendantOf(playerGui:FindFirstChild("ScreenGui")) then
+        findGuiAndSetText()
+    end
+end)
+
+findGuiAndSetText()
+
+-- moves animation changer
+--move 1
+local OriginalAnimation = 15290930205
+local ReplacedAnimation = 16062712948
+
+local StartTime = 4 -- which time it starts like video
+local Speed = 2 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- move 2
+local OriginalAnimation = 15145462680
+local ReplacedAnimation = 15436668469
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+--move 3
+local OriginalAnimation = 15295895753
+local ReplacedAnimation = 15290930205
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1.2 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+--move 4
+local OriginalAnimation = 15334974550
+local ReplacedAnimation = 13876406148
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- ult anim
+local OriginalAnimation = 15391323441
+local ReplacedAnimation = 16082123712
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 0.6 -- animation speed
+local Duration = 15 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- wall combo
+local OriginalAnimation = your_animationid
+local ReplacedAnimation = your_animationid
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+-- don't change
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- uppercut
+
+local OriginalAnimation = 10503381238
+local ReplacedAnimation = your_animationid
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 15 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+--[[Execute Anims (Animations when you execute script]]
+ 
+local p = game.Players.LocalPlayer
+local Humanoid = p.Character:WaitForChild("Humanoid")
+ 
+for _, animTrack in pairs(Humanoid:GetPlayingAnimationTracks()) do
+    animTrack:Stop()
+end
+ 
+local AnimAnim = Instance.new("Animation")
+AnimAnim.AnimationId = "rbxassetid://18435303746" -- Replace with your animation ID
+ 
+local Anim = Humanoid:LoadAnimation(AnimAnim)
+ 
+local startTime = 0.05
+ 
+Anim:Play()
+Anim:AdjustSpeed(0)
+Anim.TimePosition = startTime
+Anim:AdjustSpeed(1)
+ 
+--[[END OF EXECUTE ANIMS]]
+
+-- downslam
+local OriginalAnimation = 10470104242
+local ReplacedAnimation = 17859055671
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- ult move 1
+local OriginalAnimation = your_animationid
+local ReplacedAnimation = your_animationid
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- ult move 2
+local OriginalAnimation = your_animationid
+local ReplacedAnimation = your_animationid
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- ult move 3
+local OriginalAnimation = your_animationid
+local ReplacedAnimation = your_animationid
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+-- ult move 4
+
+local OriginalAnimation = your_animationid
+local ReplacedAnimation = your_animationid
+
+local StartTime = 0 -- which time it starts like video
+local Speed = 1 -- animation speed
+local Duration = 8 -- when the animation stops
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+a.AnimationId = "rbxassetid://0"
+p:Play()
+p.TimePosition = StartTime
+p:AdjustSpeed(Speed)
+delay(Duration, function()
+p:Stop()
+end)
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {OriginalAnimation}
+handleAnimationDetection(firstAnimIdsToStop, ReplacedAnimation)
+
+--change m1 anims here
+
+local m1 = 15259161390
+local m2 = 15240216931
+local m3 = 15240176873
+local m4 = 15162694192
+
+local function handleAnimationDetection(animIdsToStop, replacementAnimId)
+    local humanoid = game.Players.LocalPlayer.Character.Humanoid
+
+    local function onAnimPlayed(animationTrack)
+        local animId = tonumber(string.match(animationTrack.Animation.AnimationId, "%d+"))
+
+        for _, stopId in ipairs(animIdsToStop) do
+            if animId == stopId then
+                animationTrack:Stop()
+                local a = Instance.new("Animation")
+a.AnimationId = "rbxassetid://" .. replacementAnimId
+local p = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(a)
+p:Play()
+            end
+        end
+    end
+
+    humanoid.AnimationPlayed:Connect(onAnimPlayed)
+end
+
+-- First set of animations
+local firstAnimIdsToStop = {10469493270, 13532562418, 13491635433, 13370310513, 14004222985, 15259161390, 16515503507, 17889458563}
+handleAnimationDetection(firstAnimIdsToStop, m1)
+
+-- Second set of animations
+local secondAnimIdsToStop = {10469630950, 13532600125, 13296577783, 13390230973, 13997092940, 15240216931, 16515520431, 17889461810}
+handleAnimationDetection(secondAnimIdsToStop, m2)
+
+-- Third set of animations
+local thirdAnimIdsToStop = {10469639222, 13532604085, 13295919399, 13378751717, 14001963401, 15240176873, 16515448089, 17889471098}
+handleAnimationDetection(thirdAnimIdsToStop, m3)
+
+-- Fourth set of animations
+local fourthAnimIdsToStop = {10469643643, 13294471966, 13295936866, 13378708199, 14136436157, 15162694192, 16552234590, 17889290569}
+handleAnimationDetection(fourthAnimIdsToStop, m4)
+
+-- ignore these
+
+wait()
+wait(1)
+wait(2)
+wait(3)
+wait(4)
+wait(5)
+wait(6)
+wait(7)
+wait(8)
+wait(9)
+wait(10)
+wait(11)
+wait(12)
+wait(13)
+wait(14)
+wait(15)
+wait(16)
+wait(17)
+wait(18)
+wait(19)
+wait(20)
