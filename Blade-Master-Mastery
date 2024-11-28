@@ -79,9 +79,9 @@ findGuiAndSetText()
 local OriginalAnimation = 15290930205
 local ReplacedAnimation = 16062712948
 
-local StartTime = 4 -- which time it starts like video
+local StartTime = 3.5 -- which time it starts like video
 local Speed = 2 -- animation speed
-local Duration = 8 -- when the animation stops
+local Duration = 5 -- when the animation stops
 
 local function handleAnimationDetection(animIdsToStop, replacementAnimId)
     local humanoid = game.Players.LocalPlayer.Character.Humanoid
@@ -369,7 +369,7 @@ Anim:AdjustSpeed(1)
 local OriginalAnimation = 10470104242
 local ReplacedAnimation = 17858997926
 
-local StartTime = 0 -- which time it starts like video
+local StartTime = 0.6 -- which time it starts like video
 local Speed = 1 -- animation speed
 local Duration = 8 -- when the animation stops
 
